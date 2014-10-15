@@ -1,0 +1,128 @@
+
+						
+						</div>
+						<div class='block'>
+							<h3> Fusce a risus fringilla, sagittis diam eleifend, luctus nisi. </h3>
+							<div class="attribute-time">
+								<span class='date'>Sep 04, 2015</span>
+								<span class="date">sep 11, 2015</span>
+							</div>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						
+						</div>
+					</div>
+					
+					<div class='col' id="col2">
+						<div class="attribute-header">
+							<h2>News</h2>
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Jun 12, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>						
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Jun 12, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						
+						</div>
+						<div class='block'>
+							<h3> Lorem ipsum </h3>
+							<span class="date">Jun 12, 2014</span>
+							<div class='attribute-short'>
+								<p>	
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet rhoncus arcu. Fusce hendrerit consequat lectus. Duis sapien augue, viverra et dignissim elementum...<a href="#"> more </a>
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class='col' id="col3">
+						<div class="attribute-header">
+							<h2>Upcoming news</h2>
+						</div>
+						<div class='button'>
+							<img src="img/icon1.png" alt="icone 1" />
+							<h3> First button </h3>
+							<span>I love my button</span>
+						
+						</div>
+						<div class='button'>
+							<img src="img/icon1.png" alt="icone 1" />
+							<h3> Video </h3>
+							<span>Watch our videos</span>
+						
+						</div>
+						<div class='button'>
+							<img src="img/icon1.png" alt="icone 1" />
+							<h3> Life safety </h3>
+							<span>We love good ecology</span>
+						
+						</div>
+						<div class='tweeter'>
+						
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				<div id="footer-top">
+					<!-- My links on colums -->
+				</div>
+				<div id="footer-bottom">
+					<!-- My copywright -->
+				</div>
+			</div>
+
+
+
+
+
+
+
+			#content {width:1200px;}
+#slider {margin-top:30px;}
+#slider img{width:100%;}
+
+
+#container{margin-top:10px; height:500px;}
+
+#container .col{float:left;width:400px;}
+
+#col1, #col3{background:#f2f2f2;}
+
+h3 {font-weight:bold;}
+
+h2, .block {margin:15px;font-size:14px;}
+
+h2,h3, .col a{text-transform:uppercase;}
+
+.col p, .col a{font-size:12px;}
+
+/*Colone 1*/
+.attribute-time{margin:10px 0;}
+#col1 .date{color:#1bb3ae;font-weight:bold;}
+.hour{margin-left:10px;}
+#col1 h3{margin-top:30px;}
+
+/*Colone 2*/
+#col2 .attribute-short {margin:10px 0; border-top: 1px solid #111; border-bottom: 1px solid #111;padding:8px 0;}
+
+/*Colone 3*/
+.button {background: #63b5d4; margin:20px;padding:10px;}
+#col3 h3{color:#FFF;}
+#col3 img{float:left;height:100%;}
+.tweeter img{margin: 0 auto;}
